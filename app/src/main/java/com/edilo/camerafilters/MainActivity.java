@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 originalbitmap = bitmap;
                 File filepath = Environment.getExternalStorageDirectory();
-                File dir = new File(filepath.getAbsolutePath() + "/Pictures/");
+                File dir = new File(filepath.getAbsolutePath() + "/Pictures Camera Filters/");
 
                 File file = new File(dir, System.currentTimeMillis() + ".jpg");
                 try {

@@ -47,8 +47,12 @@
             android:src="@drawable/g2"
             android:layout_gravity="center"
             android:layout_marginLeft="20dp"
-            android:layout_editor_absoluteX="0dp"
-            android:layout_editor_absoluteY="33dp"/>
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="33dp"
+           />
+
+<!--        android:layout_editor_absoluteX="0dp"-->
+<!--        android:layout_editor_absoluteY="33dp"-->
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"
